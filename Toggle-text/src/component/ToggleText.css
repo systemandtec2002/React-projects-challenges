@@ -1,0 +1,35 @@
+.toggle-container{
+  /* border:1px solid #ffff; */
+  border-radius:10px;
+  text-align:center;
+  padding: 30px;
+  box-shadow:0 5px 5px rgba(203, 77, 77, 0.638);
+  transition: all 0.2 ease-in;
+}
+
+h1{
+  margin-bottom:15px;
+}
+
+#text{
+  font-size: 20px;
+  
+}
+
+
+#toggle{
+  padding: 6px 20px;
+  background-color: blue;
+  border-radius:8px;
+  color:white;
+  outline:none;
+  border:none;
+  margin-top:20px;
+  font-weight: bolder;
+  transition:backgroundColor 0.1;
+}
+
+#toggle:hover {
+  background-color: rgb(28, 28, 206);
+  transform: scale(1.05);
+}
