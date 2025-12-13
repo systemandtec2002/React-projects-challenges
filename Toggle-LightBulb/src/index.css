@@ -1,0 +1,34 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.container{
+  width: 1200px;
+  margin:50px auto;
+  text-align: center;
+}
+
+.lightbulb{
+ width:100px;
+height:200px,
+
+}
+
+.btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:8px;
+  margin-top:20px;
+}
+
+.btn-group .btn{
+  border:none;
+  outline: none;
+  padding:5px 20px;
+}
